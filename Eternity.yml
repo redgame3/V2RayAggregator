@@ -17,444 +17,444 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇦CA-79.127.200.169-0169 | 160.206MB
+- name: 🇨🇦CA-79.127.200.169-0170 | 293.779MB
   server: 79.127.200.169
   port: 990
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇺🇸US-64.186.255.102-4665 | 158.235MB
-  server: n3.chateditimage.com
+- name: 🇺🇸US-37.19.198.236-0208 | 179.595MB
+  server: 37.19.198.236
   port: 443
-  type: trojan
-  password: 4123ae62-0999-4984-8ead-091630e594a9
-  sni: n3.chateditimage.com
-  skip-cert-verify: false
-- name: 🇺🇸US-64.186.252.102-0172 | 121.776MB
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-64.186.252.102-4868 | 113.479MB
   server: n1.chateditimage.com
   port: 443
   type: trojan
   password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
   sni: n1.chateditimage.com
   skip-cert-verify: false
-- name: 🇨🇦CA-79.127.233.170-0168 | 86.735MB
-  server: 79.127.233.170
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸US-37.19.198.236-0207 | 71.604MB
-  server: 37.19.198.236
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.169-0171 | 70.578MB
-  server: 156.146.38.169
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇨🇦CA-137.184.174.93-0198 | 70.278MB
+- name: 🇨🇦CA-137.184.174.93-0205 | 111.726MB
   server: 137.184.174.93
   port: 8080
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇺🇸US-64.186.254.102-0174 | 70.129MB
-  server: n2.chateditimage.com
-  port: 443
-  type: trojan
-  password: 4123ae62-0999-4984-8ead-091630e594a9
-  sni: n2.chateditimage.com
-  skip-cert-verify: false
-- name: EC-38.165.231.25-0175 | 68.816MB
-  server: 38.165.231.25
-  port: 990
+- name: 🇨🇦CA-79.127.233.170-0169 | 94.72MB
+  server: 79.127.233.170
+  port: 989
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇬🇧GB-82.38.31.217-0181 | 64.002MB
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇬🇧GB-82.38.31.217-0201 | 94.143MB
   server: 82.38.31.217
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.205-0200 | 58.034MB
-  server: 82.38.31.205
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.218-0184 | 57.515MB
-  server: 82.38.31.218
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱NL-193.29.139.206-0191 | 55.755MB
-  server: 193.29.139.206
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 🇬🇧GB-82.38.31.202-0182 | 55.25MB
-  server: 82.38.31.202
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-146.70.61.37-0177 | 55.223MB
-  server: 146.70.61.37
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧GB-82.38.31.210-0189 | 53.587MB
-  server: 82.38.31.210
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱NL-193.29.139.189-0194 | 53.55MB
-  server: 193.29.139.189
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: 🇬🇧GB-82.38.31.99-0196 | 53.193MB
-  server: 82.38.31.99
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇬🇧GB-82.38.31.194-0185 | 53.059MB
+- name: 🇬🇧GB-82.38.31.194-0192 | 94.066MB
   server: 82.38.31.194
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.189-0334 | 52.733MB
-  server: 82.38.31.189
+- name: 🇬🇧GB-82.38.31.218-0187 | 94.028MB
+  server: 82.38.31.218
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.35-0179 | 52.685MB
-  server: 82.38.31.35
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱NL-193.29.139.217-0183 | 52.553MB
-  server: 193.29.139.217
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 🇳🇱NL-193.29.139.227-0199 | 52.41MB
-  server: 193.29.139.227
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 🇳🇱NL-193.29.139.157-0188 | 52.304MB
-  server: 193.29.139.157
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 🇳🇱NL-193.29.139.141-0195 | 52.233MB
-  server: 193.29.139.141
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇬🇧GB-82.38.31.191-0192 | 52.197MB
-  server: 82.38.31.191
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱NL-193.29.139.202-0190 | 51.432MB
+- name: 🇳🇱NL-193.29.139.202-0178 | 93.952MB
   server: 193.29.139.202
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇬🇧GB-82.38.31.214-0193 | 51.103MB
-  server: 82.38.31.214
+- name: 🇳🇱NL-193.29.139.217-0184 | 93.799MB
+  server: 193.29.139.217
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱NL-193.29.139.251-0203 | 50.227MB
-  server: 193.29.139.251
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇬🇧GB-82.38.31.208-0197 | 49.999MB
-  server: 82.38.31.208
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.124-0186 | 49.859MB
-  server: 82.38.31.124
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 🇬🇧GB-82.38.31.35-0183 | 93.799MB
+  server: 82.38.31.35
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇬🇧GB-82.38.31.187-0187 | 49.275MB
-  server: 82.38.31.187
+- name: 🇳🇱NL-193.29.139.141-0191 | 93.799MB
+  server: 193.29.139.141
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇬🇧GB-82.38.31.99-0194 | 93.496MB
+  server: 82.38.31.99
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱NL-193.29.139.157-0179 | 93.308MB
+  server: 193.29.139.157
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 🇬🇧GB-82.38.31.189-0349 | 92.933MB
+  server: 82.38.31.189
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: SE-121.127.46.147-0202 | 49.223MB
-  server: 121.127.46.147
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸US-104.192.226.106-0176 | 48.87MB
-  server: 104.192.226.106
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸US-173.234.29.2-0213 | 48.767MB
-  server: 173.234.29.2
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇳🇱NL-109.201.152.181-0206 | 47.263MB
-  server: 109.201.152.181
-  port: 443
-  type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-- name: 🇬🇧GB-82.38.31.176-0328 | 46.918MB
+- name: 🇬🇧GB-82.38.31.176-0207 | 92.562MB
   server: 82.38.31.176
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US-173.244.56.6-0205 | 46.625MB
-  server: 173.244.56.6
+- name: 🇺🇸US-156.146.38.169-0175 | 92.562MB
+  server: 156.146.38.169
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇳🇱NL-51.15.17.169-0204 | 46.41MB
+- name: 🇳🇱NL-193.29.139.206-0181 | 92.414MB
+  server: 193.29.139.206
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 🇬🇧GB-82.38.31.210-0188 | 91.428MB
+  server: 82.38.31.210
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇺🇸US-156.146.38.167-0174 | 91.248MB
+  server: 156.146.38.167
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-82.38.31.214-0190 | 88.935MB
+  server: 82.38.31.214
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.202-0185 | 88.56MB
+  server: 82.38.31.202
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.187-0186 | 87.921MB
+  server: 82.38.31.187
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.82-0200 | 86.768MB
+  server: 82.38.31.82
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇬🇧GB-82.38.31.101-0180 | 86.122MB
+  server: 82.38.31.101
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱NL-193.29.139.227-0204 | 85.708MB
+  server: 193.29.139.227
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 🇬🇧GB-82.38.31.191-0197 | 83.603MB
+  server: 82.38.31.191
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.124-0182 | 83.272MB
+  server: 82.38.31.124
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇺🇸US-156.146.38.170-0173 | 81.83MB
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-82.38.31.205-0195 | 81.085MB
+  server: 82.38.31.205
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.208-0193 | 80.214MB
+  server: 82.38.31.208
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱NL-193.29.139.251-0189 | 79.388MB
+  server: 193.29.139.251
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: SE-121.127.46.147-0199 | 76.604MB
+  server: 121.127.46.147
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇺🇸US-173.234.29.2-0217 | 72.661MB
+  server: 173.234.29.2
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇺🇸US-64.186.255.102-0172 | 61.617MB
+  server: n3.chateditimage.com
+  port: 443
+  type: trojan
+  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
+  sni: n3.chateditimage.com
+  skip-cert-verify: false
+- name: 🇳🇱NL-109.201.152.181-0206 | 60.585MB
+  server: 109.201.152.181
+  port: 443
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
+- name: 🇳🇱NL-193.29.139.189-0196 | 57.131MB
+  server: 193.29.139.189
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 🇳🇱NL-51.15.17.169-0198 | 55.796MB
   server: 51.15.17.169
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇵🇱PL-62.112.222.103-0210 | 46.151MB
+- name: 🇬🇧GB-82.38.31.199-0343 | 54.909MB
+  server: 82.38.31.199
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇺🇸US-104.192.226.106-0177 | 53.962MB
+  server: 104.192.226.106
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇵🇱PL-62.112.222.103-0213 | 53.874MB
   server: outgoing-ladybird.rooster465.autos
   port: 443
   type: trojan
   password: IL37892054
   sni: outgoing-ladybird.rooster465.autos
   skip-cert-verify: false
-- name: 🇵🇱PL-62.112.222.55-0209 | 45.064MB
+- name: 🇵🇱PL-62.112.222.54-0209 | 47.023MB
+  server: funky-platypus.rooster465.autos
+  port: 443
+  type: trojan
+  password: WF42809561
+  sni: funky-platypus.rooster465.autos
+  skip-cert-verify: false
+- name: 🇺🇸US-173.244.56.6-0168 | 38.621MB
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇵🇱PL-62.112.222.55-0211 | 38.467MB
   server: fluent-stingray.crayfish192.xyz
   port: 443
   type: trojan
   password: IL37892054
   sni: fluent-stingray.crayfish192.xyz
   skip-cert-verify: false
-- name: 🇬🇧GB-82.38.31.101-0178 | 44.986MB
-  server: 82.38.31.101
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇰🇷KR-3.34.140.83-0201 | 42.275MB
-  server: select-marmoset.rooster465.autos
+- name: 🇵🇱PL-62.112.222.76-0215 | 37.975MB
+  server: top-goshawk.rooster465.autos
   port: 443
   type: trojan
-  password: IL37892054
-  sni: select-marmoset.rooster465.autos
+  password: WF42809561
+  sni: top-goshawk.rooster465.autos
   skip-cert-verify: false
-- name: ZA-156.38.168.58-0216 | 41.169MB
-  server: 156.38.168.58
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇨🇦CA-134.195.198.147-6961 | 38.959MB
-  server: 134.195.198.147
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: inna.cfd
-- name: LV-46.183.217.204-0217 | 38.66MB
+- name: LV-46.183.217.204-0220 | 37.956MB
   server: 46.183.217.204
   port: 990
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇳🇱NL-158.173.20.171-0221 | 37.746MB
-  server: 158.173.20.171
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-51.132.235.17-0222 | 37.599MB
-  server: series-a1.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-- name: 🇯🇵JP-172.105.199.111-0212 | 37.459MB
-  server: 172.105.199.111
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧GB-51.132.235.17-0224 | 36.652MB
-  server: admin.c1.havij.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 1kVr0KATIJI7mwOF
-- name: PA-138.186.142.81-0208 | 35.182MB
-  server: 138.186.142.81
+- name: ZA-156.38.168.58-0219 | 37.9MB
+  server: 156.38.168.58
   port: 990
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇬🇧GB-51.132.235.17-0223 | 31.308MB
-  server: admin.c1.webramz.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-- name: 🇬🇧GB-51.132.235.17-0225 | 31.023MB
-  server: series-a2.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-- name: PA-138.186.142.80-0282 | 30.812MB
-  server: 138.186.142.80
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇬🇧GB-141.98.101.182-0305 | 30.5MB
-  server: 141.98.101.182
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-141.98.101.178-0306 | 29.144MB
-  server: 141.98.101.178
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.167-0173 | 25.161MB
-  server: 156.146.38.167
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇯🇵JP-149.22.87.204-0218 | 24.666MB
-  server: 149.22.87.204
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇸🇬SG-68.183.227.4-0219 | 22.106MB
-  server: 68.183.227.4
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: AE-147.78.0.182-0229 | 20.726MB
-  server: 147.78.0.182
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: FI-193.47.60.186-0228 | 18.937MB
-  server: 193.47.60.186
-  port: 28687
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: yKVMoB3AwiTEznpnoq2FYR
-- name: 🇰🇷KR-54.180.131.34-0236 | 18.877MB
+- name: 🇰🇷KR-54.180.131.34-0202 | 36.892MB
   server: glowing-deer.rooster465.autos
   port: 443
   type: trojan
   password: ZY07256934
   sni: glowing-deer.rooster465.autos
   skip-cert-verify: false
-- name: FI-38.244.136.233-0232 | 18.637MB
-  server: promo18v.bystrivpn.ru
+- name: 🇬🇧GB-51.132.235.17-0230 | 35.587MB
+  server: admin.c1.webramz.co
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: dAHM1pm8ag7KdlrUylQi6t
-- name: LV-185.176.221.72-0226 | 18.276MB
-  server: 185.176.221.72
-  port: 24637
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: MholStyHL7DhrewKbpQa20
-- name: BG-89.44.197.181-0234 | 17.928MB
-  server: 89.44.197.181
-  port: 31348
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL
-- name: 🇨🇦CA-23.95.76.59-0231 | 17.812MB
-  server: 23.95.76.59
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇭🇰HK-185.14.47.88-0834 | 17.711MB
-  server: nearby-muskrat.rooster465.autos
-  port: 443
-  type: trojan
-  password: WF42809561
-  sni: nearby-muskrat.rooster465.autos
-  skip-cert-verify: false
-- name: 🇭🇰HK-185.244.208.189-0220 | 17.695MB
-  server: growing-tuna.rooster465.autos
+  password: W74XFALLLuw6m5IA
+- name: 🇰🇷KR-3.34.140.83-0203 | 35.032MB
+  server: select-marmoset.rooster465.autos
   port: 443
   type: trojan
   password: IL37892054
+  sni: select-marmoset.rooster465.autos
   skip-cert-verify: false
-- name: 🇳🇱NL-85.234.65.205-0233 | 17.245MB
+- name: 🇬🇧GB-51.132.235.17-0229 | 27.347MB
+  server: admin.c1.havij.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 1kVr0KATIJI7mwOF
+- name: 🇳🇱NL-158.173.20.171-0227 | 25.839MB
+  server: 158.173.20.171
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-51.132.235.17-0232 | 25.828MB
+  server: series-a2.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇦🇺AU-82.117.225.55-0210 | 23.612MB
+  server: premium-lab.rooster465.autos
+  port: 443
+  type: trojan
+  password: WF42809561
+  sni: premium-lab.rooster465.autos
+  skip-cert-verify: false
+- name: 🇬🇧GB-51.132.235.17-0228 | 21.711MB
+  server: series-a1.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇳🇱NL-85.234.65.205-0231 | 21.416MB
   server: model-stingray.crayfish192.xyz
   port: 443
   type: trojan
   password: WF42809561
   sni: model-stingray.crayfish192.xyz
   skip-cert-verify: false
-- name: PK-156.59.243.6-0230 | 15.589MB
-  server: 156.59.243.6
+- name: 🇳🇱NL-89.39.70.111-0225 | 21.176MB
+  server: fun-seagull.rooster465.autos
+  port: 443
+  type: trojan
+  password: WF42809561
+  skip-cert-verify: false
+- name: 🇬🇧GB-141.98.101.182-0319 | 20.964MB
+  server: 141.98.101.182
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-141.98.101.178-0318 | 20.669MB
+  server: 141.98.101.178
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇯🇵JP-172.105.199.111-0214 | 18.652MB
+  server: 172.105.199.111
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: LV-185.176.221.72-0239 | 18.298MB
+  server: 185.176.221.72
+  port: 24637
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: MholStyHL7DhrewKbpQa20
+- name: 🇭🇰HK-185.244.208.189-0233 | 18.001MB
+  server: growing-tuna.rooster465.autos
+  port: 443
+  type: trojan
+  password: IL37892054
+  skip-cert-verify: false
+- name: FI-38.244.136.233-0321 | 16.415MB
+  server: promo18v.bystrivpn.ru
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: dAHM1pm8ag7KdlrUylQi6t
+- name: AE-147.78.0.182-0234 | 15.836MB
+  server: 147.78.0.182
   port: 990
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇨🇦CA-23.162.200.227-6959 | 15.391MB
+- name: FI-193.47.60.186-0238 | 13.89MB
+  server: 193.47.60.186
+  port: 28687
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: yKVMoB3AwiTEznpnoq2FYR
+- name: BG-89.44.197.181-0241 | 12.795MB
+  server: 89.44.197.181
+  port: 31348
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL
+- name: 🇭🇰HK-185.14.47.88-0226 | 11.158MB
+  server: nearby-muskrat.rooster465.autos
+  port: 443
+  type: trojan
+  password: WF42809561
+  sni: nearby-muskrat.rooster465.autos
+  skip-cert-verify: false
+- name: PA-138.186.142.80-0222 | 10.961MB
+  server: 138.186.142.80
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇯🇵JP-149.22.87.204-0221 | 10.214MB
+  server: 149.22.87.204
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇨🇦CA-23.95.76.59-0240 | 9.833MB
+  server: 23.95.76.59
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: PA-138.186.142.81-0223 | 9.722MB
+  server: 138.186.142.81
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇨🇦CA-23.162.200.227-6948 | 9.714MB
   server: 23.162.200.227
   port: 443
   type: vmess
@@ -466,316 +466,406 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: ZA-102.133.165.160-0247 | 15.068MB
+- name: LT-195.66.25.220-0243 | 9.681MB
+  server: 195.66.25.220
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: yhrHMDgZ2egKftvrecvkpUPqpUTyac7q
+- name: ZA-102.133.165.160-0246 | 9.646MB
   server: 102.133.165.160
   port: 16233
   type: ss
   cipher: chacha20-ietf-poly1305
   password: Xsy8Ox4yOV3xLlpxtjzs3X
-- name: 🇰🇷KR-152.67.208.31-0853 | 14.883MB
-  server: chuncheon03.zgjok.com
-  port: 443
-  type: vmess
-  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: chuncheon03.zgjok.com
-- name: 🇨🇳TW-111.248.43.251-4645 | 14.535MB
-  server: n8mrcg006021kdp.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇰🇷KR-152.67.208.31-0227 | 13.777MB
-  server: chuncheon03.zgjok.com
-  port: 443
-  type: vmess
-  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: chuncheon03.zgjok.com
-- name: ZA-102.37.156.224-0241 | 13.444MB
+- name: ZA-102.37.156.224-0250 | 9.52MB
   server: 102.37.156.224
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: aduB9HGxQHjA2SBMRjkHX6
-- name: 🇨🇳TW-36.225.8.218-0253 | 12.741MB
-  server: r3mrcg007144ll4.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-36.227.72.174-0237 | 11.911MB
-  server: n8mrcg005969zt4.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇯🇵JP-160.16.106.99-0239 | 11.789MB
-  server: 160.16.106.99
-  port: 4937
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: false
-- name: 🇨🇦CA-45.154.204.7-0295 | 10.463MB
-  server: 45.154.204.7
+- name: EC-38.165.231.25-0176 | 9.506MB
+  server: 38.165.231.25
   port: 990
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇦🇺AU-87.121.33.75-0244 | 10.141MB
-  server: steady-lemming.rooster465.autos
+- name: MT-171.22.254.17-0244 | 9.45MB
+  server: 171.22.254.17
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇰🇷KR-152.67.208.31-0842 | 9.431MB
+  server: chuncheon03.zgjok.com
   port: 443
-  type: trojan
-  password: IL37892054
-  sni: steady-lemming.rooster465.autos
+  type: vmess
+  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: false
-- name: 🇦🇺AU-87.121.33.165-0242 | 10.092MB
-  server: enhanced-crayfish.rooster465.autos
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: chuncheon03.zgjok.com
+- name: 🇰🇷KR-152.67.208.31-0235 | 9.418MB
+  server: chuncheon03.zgjok.com
   port: 443
-  type: trojan
-  password: IL37892054
-  sni: enhanced-crayfish.rooster465.autos
+  type: vmess
+  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: false
-- name: 🇯🇵JP-160.16.124.17-0240 | 10.048MB
-  server: 160.16.124.17
-  port: 34818
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: false
-- name: 🇦🇺AU-87.121.33.56-0246 | 9.922MB
-  server: evolving-kangaroo.rooster465.autos
-  port: 443
-  type: trojan
-  password: WF42809561
-  sni: evolving-kangaroo.rooster465.autos
-  skip-cert-verify: false
-- name: 🇯🇵JP-160.16.70.180-0256 | 9.827MB
-  server: 160.16.70.180
-  port: 3700
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: false
-- name: 🇯🇵JP-160.16.214.104-1670 | 9.591MB
-  server: 160.16.214.104
-  port: 4674
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: false
-- name: 🇨🇳TW-111.249.128.109-0235 | 9.497MB
-  server: nbmrcg003437cgb.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-1.163.202.26-4643 | 9.008MB
-  server: r3mrcg0011778me.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-111.249.128.26-0264 | 8.954MB
-  server: n8mrcg005988a7z.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-36.224.132.219-0267 | 8.953MB
-  server: r3mrcg001222869.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇦CA-144.217.164.29-0255 | 8.84MB
-  server: 144.217.164.29
-  port: 12000
-  type: ss
-  cipher: aes-256-gcm
-  password: 8JCsPssfgS8tiRwiMlhARg==
-- name: 🇨🇳TW-36.224.132.219-0274 | 8.752MB
-  server: 36.224.132.219
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-1.162.164.74-0297 | 8.578MB
-  server: n8mrcg0060292s3.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: KZ-109.61.39.28-0254 | 8.152MB
-  server: 109.61.39.28
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇨🇳TW-36.226.50.168-4637 | 8.083MB
-  server: n8mrcg004767yf3.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-36.224.135.49-0257 | 7.78MB
-  server: r3mrcg0011993za.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-1.162.176.167-0269 | 7.581MB
-  server: n8mrcg005958sxh.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-1.162.143.241-0238 | 7.199MB
-  server: n8mrcg005972g7w.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-61.224.65.18-0250 | 7.028MB
-  server: ncmrcg000110w54.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-36.224.129.102-4646 | 6.805MB
-  server: r3mrcg001286ek2.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-36.224.138.111-0268 | 6.733MB
-  server: r3mrcg0071643p7.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇯🇵JP-153.121.38.213-1667 | 6.247MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: chuncheon03.zgjok.com
+- name: 🇯🇵JP-153.121.38.213-0814 | 9.18MB
   server: 153.121.38.213
   port: 4937
   type: trojan
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   sni: www.nintendogames.net
   skip-cert-verify: false
-- name: 🇨🇳TW-36.224.151.183-0271 | 6.162MB
-  server: r3mrcg0011305nw.cybervena.com
+- name: 🇦🇺AU-87.121.33.56-0249 | 9.175MB
+  server: evolving-kangaroo.rooster465.autos
+  port: 443
+  type: trojan
+  password: WF42809561
+  sni: evolving-kangaroo.rooster465.autos
+  skip-cert-verify: false
+- name: 🇨🇳TW-36.227.72.174-0245 | 8.516MB
+  server: n8mrcg005969zt4.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-36.224.128.159-0281 | 6.127MB
-  server: r3mrcg001121x36.cybervena.com
+- name: 🇯🇵JP-160.16.106.99-0261 | 8.385MB
+  server: 160.16.106.99
+  port: 4937
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: 🇯🇵JP-160.16.214.104-0817 | 8.269MB
+  server: 160.16.214.104
+  port: 4674
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: 🇦🇺AU-87.121.33.75-0247 | 8.263MB
+  server: steady-lemming.rooster465.autos
+  port: 443
+  type: trojan
+  password: IL37892054
+  sni: steady-lemming.rooster465.autos
+  skip-cert-verify: false
+- name: 🇨🇦CA-45.154.204.7-0271 | 7.635MB
+  server: 45.154.204.7
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇦🇺AU-87.121.33.165-0248 | 7.399MB
+  server: enhanced-crayfish.rooster465.autos
+  port: 443
+  type: trojan
+  password: IL37892054
+  sni: enhanced-crayfish.rooster465.autos
+  skip-cert-verify: false
+- name: 🇨🇳TW-111.248.43.251-4634 | 6.62MB
+  server: n8mrcg006021kdp.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-36.224.130.97-0263 | 6.127MB
-  server: r3mrcg00129437x.cybervena.com
+- name: 🇨🇳TW-111.249.128.109-0254 | 6.603MB
+  server: nbmrcg003437cgb.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: NO-80.173.231.254-0272 | 5.919MB
+- name: 🇯🇵JP-160.16.70.180-0253 | 6.595MB
+  server: 160.16.70.180
+  port: 3700
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: 🇳🇱NL-85.234.65.58-0236 | 6.149MB
+  server: touching-pigeon.rooster465.autos
+  port: 443
+  type: trojan
+  password: WF42809561
+  sni: touching-pigeon.rooster465.autos
+  skip-cert-verify: false
+- name: 🇯🇵JP-160.16.124.17-0270 | 6.138MB
+  server: 160.16.124.17
+  port: 34818
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: 🇸🇬SG-38.89.142.56-0255 | 5.838MB
+  server: 38.89.142.56
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: KZ-109.61.39.28-0264 | 5.771MB
+  server: 109.61.39.28
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇨🇳TW-1.162.143.241-0284 | 5.706MB
+  server: n8mrcg005972g7w.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-1.163.202.26-0263 | 5.627MB
+  server: r3mrcg0011778me.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-1.162.164.74-4644 | 5.594MB
+  server: n8mrcg0060292s3.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-36.225.8.218-0252 | 5.421MB
+  server: r3mrcg007144ll4.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: NO-80.173.231.254-0281 | 5.263MB
   server: 80.173.231.254
   port: 12420
   type: trojan
   password: wp9IsiY82uQhcmgNC1eoBM
   sni: www.semanticstaplegun.click
   skip-cert-verify: false
-- name: 🇨🇳TW-1.162.180.189-0245 | 5.713MB
-  server: n8mrcg005961xa6.cybervena.com
+- name: 🇨🇳TW-111.249.128.26-0276 | 4.81MB
+  server: n8mrcg005988a7z.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-1.171.18.111-0248 | 5.561MB
-  server: n8mrcg004732fk8.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: MT-171.22.254.17-0251 | 5.319MB
-  server: 171.22.254.17
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇵🇱PL-217.30.10.70-8291 | 5.033MB
-  server: 217.30.10.70
-  port: 9044
-  type: ss
-  cipher: aes-256-cfb
-  password: KBGjZYcy4SyRShmA
-- name: 🇨🇳TW-36.224.130.97-0259 | 5.01MB
-  server: 36.224.130.97
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-36.224.128.32-4648 | 4.986MB
-  server: r3mrcg001233myh.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇺🇸US-209.126.84.189-0809 | 4.828MB
-  server: 209.126.84.189
-  port: 443
-  type: vmess
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 209.126.84.189
-- name: 🇨🇳TW-36.230.10.82-0270 | 4.771MB
+- name: 🇨🇳TW-36.230.10.82-0242 | 4.739MB
   server: r3mrcg0011606bh.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-1.161.246.129-0286 | 4.576MB
-  server: ncmrcg000138e7b.cybervena.com
+- name: 🇨🇳TW-185.189.160.105-0274 | 4.728MB
+  server: 185.189.160.105
+  port: 41632
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇨🇳TW-61.224.65.18-0272 | 4.652MB
+  server: ncmrcg000110w54.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-36.227.194.34-0276 | 4.207MB
-  server: r3mrcg001188p8v.cybervena.com
+- name: 🇨🇳TW-36.224.128.159-0285 | 4.315MB
+  server: r3mrcg001121x36.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-36.224.140.237-0285 | 4.129MB
+- name: 🇨🇳TW-1.162.176.167-0256 | 4.307MB
+  server: n8mrcg005958sxh.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-36.226.50.168-4626 | 4.199MB
+  server: n8mrcg004767yf3.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-36.224.132.219-0283 | 3.738MB
+  server: 36.224.132.219
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: PK-156.59.243.6-0275 | 3.595MB
+  server: 156.59.243.6
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇵🇱PL-57.128.214.100-0280 | 3.57MB
+  server: 57.128.214.100
+  port: 12000
+  type: ss
+  cipher: aes-256-gcm
+  password: 8JCsPssfgS8tiRwiMlhARg==
+- name: 🇨🇳TW-36.224.140.237-0251 | 3.566MB
   server: r3mrcg007116sfa.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇺🇸US-209.126.84.189-0803 | 3.993MB
+- name: 🇨🇳TW-36.224.138.111-0289 | 3.313MB
+  server: r3mrcg0071643p7.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-36.224.132.219-0277 | 3.282MB
+  server: r3mrcg001222869.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-36.224.129.102-4635 | 3.275MB
+  server: r3mrcg001286ek2.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-114.45.131.202-0299 | 3.134MB
+  server: r3mrcg007150y7y.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-111.248.110.25-0298 | 3.043MB
+  server: r3mrcg00121233v.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇩🇰DK-192.36.27.94-0293 | 3.0MB
+  server: 192.36.27.94
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇨🇳TW-36.224.151.183-0324 | 2.808MB
+  server: r3mrcg0011305nw.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-114.35.191.123-0273 | 2.784MB
+  server: nbmrcg003466pb9.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇮🇳IN-82.180.146.173-0295 | 2.684MB
+  server: 82.180.146.173
+  port: 35652
+  type: ss
+  cipher: aes-128-gcm
+  password: 93498539-7838-4836-b9b3-8311ffc79bcf
+- name: LT-195.66.25.251-4702 | 2.576MB
+  server: 8443.golden-cards.me
+  port: 443
+  type: trojan
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  sni: 8443.golden-cards.me
+  skip-cert-verify: false
+- name: 🇨🇳TW-36.224.130.97-0266 | 2.55MB
+  server: r3mrcg00129437x.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-114.35.191.123-0258 | 2.493MB
+  server: 114.35.191.123
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇸🇬SG-68.183.227.4-0237 | 2.433MB
+  server: 68.183.227.4
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇨🇳TW-1.171.18.111-0267 | 2.418MB
+  server: n8mrcg004732fk8.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: PY-38.165.233.93-0291 | 2.378MB
+  server: 38.165.233.93
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇨🇳TW-114.45.163.12-0826 | 2.029MB
+  server: r3mrcg007117fb8.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-125.228.75.185-0294 | 1.89MB
+  server: nbmrcg0034305hx.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇰🇷KR-218.237.185.230-0354 | 1.842MB
+  server: p141.panda001.net
+  port: 4652
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇨🇳TW-125.228.75.185-0314 | 1.513MB
+  server: 125.228.75.185
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: VN-103.163.218.2-0305 | 1.505MB
+  server: 103.163.218.2
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇭🇰HK-112.213.102.188-0302 | 1.49MB
+  server: 112.213.102.188
+  port: 41632
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇨🇦CA-144.217.164.29-0317 | 1.482MB
+  server: 144.217.164.29
+  port: 12000
+  type: ss
+  cipher: aes-256-gcm
+  password: 8JCsPssfgS8tiRwiMlhARg==
+- name: 🇨🇳TW-1.161.243.93-0316 | 1.462MB
+  server: nbmrcg003505rnd.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇬🇧GB-185.5.38.111-0306 | 1.268MB
+  server: 185.5.38.111
+  port: 55988
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2EmWRS1TkS3TkxKApnrihb3aHjDSXRvT1T1K9U2Bruxrnp5A8zmpTxwwTNje6BkVqmn9BgRF6pq8qoRHCfZdcah7BLbjrpT1
+- name: 🇺🇸US-209.126.84.189-0790 | 1.229MB
   server: v2ray.codefyinc.com
   port: 443
   type: vmess
@@ -789,210 +879,65 @@ proxies:
     path: /
     headers:
       Host: v2ray.codefyinc.com
-- name: 🇮🇳IN-82.180.146.173-0280 | 3.65MB
-  server: 82.180.146.173
-  port: 35652
-  type: ss
-  cipher: aes-128-gcm
-  password: 93498539-7838-4836-b9b3-8311ffc79bcf
-- name: PY-38.165.233.93-0278 | 3.487MB
-  server: 38.165.233.93
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇵🇱PL-217.30.10.70-4819 | 3.28MB
-  server: 217.30.10.70
-  port: 9037
-  type: ss
-  cipher: aes-256-cfb
-  password: TN2YqghxeFDKZfLU
-- name: 🇵🇱PL-217.30.10.70-4820 | 3.123MB
-  server: 217.30.10.70
-  port: 9010
-  type: ss
-  cipher: aes-256-cfb
-  password: f63gg8EruDnUrmz4
-- name: 🇨🇳TW-1.161.246.129-0816 | 2.954MB
-  server: 1.161.246.129
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇳🇱NL-213.109.147.242-0321 | 2.852MB
-  server: 213.109.147.242
-  port: 62685
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: VpKABcOpNNA0l5G2AVOmw8
-- name: 🇩🇰DK-192.36.27.94-0273 | 2.726MB
-  server: 192.36.27.94
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇨🇳TW-1.161.246.106-0300 | 2.587MB
-  server: 1.161.246.106
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-185.189.160.105-0258 | 2.572MB
-  server: 185.189.160.105
-  port: 41632
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇨🇳TW-36.227.206.73-0508 | 2.555MB
+- name: 🇨🇳TW-36.227.206.73-0269 | 1.168MB
   server: r3mrcg001142988.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-111.248.79.83-4839 | 2.515MB
-  server: r3mrcg007169a5m.cybervena.com
-  port: 50099
+- name: 🇬🇧GB-185.5.38.111-0301 | 1.099MB
+  server: mx2.drawnrisha.one
+  port: 55988
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-1.161.246.106-0510 | 2.39MB
-  server: nbmrcg003507ck6.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-1.161.243.93-0296 | 2.191MB
-  server: nbmrcg003505rnd.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: HR-46.183.184.60-0307 | 2.129MB
-  server: 46.183.184.60
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇬🇧GB-82.38.31.184-0337 | 1.896MB
-  server: 82.38.31.184
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇨🇳TW-114.35.191.123-0265 | 1.809MB
-  server: 114.35.191.123
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-111.248.110.25-0262 | 1.726MB
-  server: r3mrcg00121233v.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇷🇺RU-38.60.223.8-0319 | 1.667MB
-  server: 38.60.223.8
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: VN-103.163.218.2-0279 | 1.566MB
-  server: 103.163.218.2
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇨🇳TW-111.250.207.173-0565 | 1.537MB
+  password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
+- name: 🇨🇳TW-111.250.207.173-0804 | 1.0MB
   server: namrcg002771r35.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: BR-38.54.57.90-0288 | 1.494MB
-  server: 38.54.57.90
+- name: 🇨🇳TW-61.231.8.214-0260 | 0.992MB
+  server: r3mrcg007175dsk.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-1.161.246.106-0331 | 0.975MB
+  server: 1.161.246.106
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: SC-154.90.62.168-0309 | 0.96MB
+  server: 154.90.62.168
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇨🇳TW-114.45.131.202-0298 | 1.397MB
-  server: r3mrcg007150y7y.cybervena.com
+- name: 🇨🇳TW-1.161.246.106-0290 | 0.946MB
+  server: nbmrcg003507ck6.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇸🇬SG-38.89.142.56-0289 | 1.364MB
-  server: 38.89.142.56
-  port: 990
+- name: 🇨🇳TW-111.248.79.83-0303 | 0.919MB
+  server: r3mrcg007169a5m.cybervena.com
+  port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: GR-192.71.166.100-0299 | 1.345MB
-  server: 192.71.166.100
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: MK-46.183.185.37-0334 | 0.897MB
+  server: 46.183.185.37
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸US-38.135.24.131-0343 | 1.299MB
-  server: 38.135.24.131
+- name: 🇺🇸US-209.126.84.189-0796 | 0.84MB
+  server: 209.126.84.189
   port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
-- name: 🇭🇰HK-112.213.102.188-0290 | 1.197MB
-  server: 112.213.102.188
-  port: 41632
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸US-38.135.24.131-0313 | 1.177MB
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
-- name: 🇵🇱PL-62.112.222.76-0325 | 1.131MB
-  server: top-goshawk.rooster465.autos
-  port: 443
-  type: trojan
-  password: WF42809561
-  sni: top-goshawk.rooster465.autos
-  skip-cert-verify: false
-- name: 🇨🇳TW-114.45.142.48-0266 | 1.031MB
-  server: r3mrcg007147vhp.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-1.161.241.74-0332 | 0.926MB
-  server: nbmrcg003494xuj.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇨🇳TW-116.241.42.86-0292 | 0.921MB
-  server: namrcg001662wgh.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: PE-138.186.143.32-0302 | 0.877MB
-  server: 138.186.143.32
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: PE-138.186.143.32-0303 | 0.844MB
-  server: 138.186.143.32
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇭🇰HK-47.243.135.74-4784 | 0.81MB
-  server: 47.243.135.74
-  port: 55185
   type: vmess
-  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
   alterId: 0
   cipher: auto
   tls: false
@@ -1000,220 +945,135 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: BE-192.71.249.78-0293 | 0.797MB
-  server: 192.71.249.78
+    headers:
+      Host: 209.126.84.189
+- name: HR-46.183.184.60-0304 | 0.808MB
+  server: 46.183.184.60
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: PR-185.47.255.22-0315 | 0.795MB
-  server: 185.47.255.22
+- name: BR-38.54.57.90-0346 | 0.767MB
+  server: 38.54.57.90
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: BO-185.93.173.60-0309 | 0.767MB
-  server: 185.93.173.60
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇨🇳TW-111.250.225.82-0252 | 0.749MB
-  server: n8mrcg005938lsz.cybervena.com
+- name: 🇨🇳TW-36.224.128.32-4637 | 0.656MB
+  server: r3mrcg001233myh.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: MA-154.70.207.97-0291 | 0.642MB
-  server: 154.70.207.97
-  port: 990
+- name: 🇨🇳TW-36.224.135.49-0286 | 0.654MB
+  server: r3mrcg0011993za.cybervena.com
+  port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇬🇧GB-82.38.31.199-0329 | 0.582MB
-  server: 82.38.31.199
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: SI-192.71.244.150-0301 | 0.504MB
-  server: 192.71.244.150
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: LT-195.66.25.220-0326 | 0.403MB
-  server: 195.66.25.220
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: yhrHMDgZ2egKftvrecvkpUPqpUTyac7q
-- name: MK-46.183.185.37-0294 | 0.4MB
-  server: 46.183.185.37
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: LT-195.66.25.251-4713 | 0.35MB
-  server: 8443.golden-cards.me
-  port: 443
-  type: trojan
-  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
-  sni: 8443.golden-cards.me
-  skip-cert-verify: false
-- name: 🇯🇵JP-103.106.228.247-0338 | 0.349MB
-  server: 103.106.228.247
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇭🇰HK-203.23.128.33-0287 | 0.346MB
-  server: 203.23.128.33
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: SC-154.90.63.177-0283 | 0.318MB
-  server: 154.90.63.177
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: RELAY-104.21.25.226-0317 | 0.282MB
-  server: zzrt.uhomdex.shop
-  port: 8443
-  type: vmess
-  uuid: 0b4c4ed4-deed-4bda-ae3d-6c8ccd1d1199
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-104.21.25.226-0317 | 0.282MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zzrt.uhomdex.shop
-- name: SC-154.223.20.79-0304 | 0.231MB
-  server: 154.223.20.79
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇳🇱NL-193.29.139.179-0331 | 0.226MB
-  server: 193.29.139.179
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: BG-38.60.247.151-0316 | 0.222MB
-  server: 38.60.247.151
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇬🇧GB-82.38.31.179-0336 | 0.218MB
-  server: 82.38.31.179
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: SC-154.90.62.168-0310 | 0.186MB
-  server: 154.90.62.168
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: LT-193.135.174.135-0277 | 0.181MB
-  server: 193.135.174.135
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇭🇰HK-47.242.138.141-0335 | 0.176MB
-  server: n1761296880.lie5d.cyou
-  port: 443
-  type: vmess
-  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇭🇰HK-47.242.138.141-0335 | 0.176MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: n1761296880.lie5d.cyou
-- name: MX-147.78.1.230-0341 | 0.172MB
-  server: 147.78.1.230
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇪🇸ES-37.143.130.203-0333 | 0.168MB
-  server: 37.143.130.203
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: MX-147.78.1.230-0342 | 0.147MB
-  server: 147.78.1.230
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: CO-154.223.16.212-0311 | 0.146MB
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: CO-154.223.16.212-0325 | 0.635MB
   server: 154.223.16.212
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: EG-38.54.59.180-0330 | 0.146MB
-  server: 38.54.59.180
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇬🇧GB-185.5.38.111-0344 | 0.145MB
-  server: mx2.drawnrisha.one
-  port: 55988
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
-- name: 🇩🇪DE-38.60.250.107-0345 | 0.133MB
-  server: 38.60.250.107
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇵🇱PL-62.112.222.54-0324 | 0.128MB
-  server: funky-platypus.rooster465.autos
-  port: 443
-  type: trojan
-  password: WF42809561
-  sni: funky-platypus.rooster465.autos
-  skip-cert-verify: false
-- name: TR-203.202.232.78-4792 | 0.125MB
-  server: 203.202.232.78
-  port: 60299
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AVLbEUEtBD59FsRqcNyEib
-- name: 🇳🇱NL-85.234.65.58-0243 | 0.118MB
-  server: touching-pigeon.rooster465.autos
-  port: 443
-  type: trojan
-  password: WF42809561
-  sni: touching-pigeon.rooster465.autos
-  skip-cert-verify: false
-- name: 🇭🇰HK-216.250.97.82-4718 | 0.091MB
-  server: 216.250.97.82
-  port: 38388
+- name: 🇭🇰HK-203.23.128.33-0342 | 0.596MB
+  server: 203.23.128.33
+  port: 989
   type: ss
   cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: 🇨🇳TW-103.229.124.3-7314 | 0.086MB
+  password: f8f7aCzcPKbsF8p3
+- name: 🇨🇳TW-1.162.180.189-0278 | 0.579MB
+  server: n8mrcg005961xa6.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-1.161.246.129-0312 | 0.562MB
+  server: ncmrcg000138e7b.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇷🇺RU-38.60.223.8-0326 | 0.539MB
+  server: 38.60.223.8
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: GR-192.71.166.100-0307 | 0.52MB
+  server: 192.71.166.100
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: PE-138.186.143.32-0328 | 0.517MB
+  server: 138.186.143.32
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: MA-154.70.207.97-0310 | 0.503MB
+  server: 154.70.207.97
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: MX-147.78.1.230-0337 | 0.495MB
+  server: 147.78.1.230
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: PE-138.186.143.32-0327 | 0.457MB
+  server: 138.186.143.32
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: BE-192.71.249.78-0297 | 0.455MB
+  server: 192.71.249.78
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇨🇳TW-36.227.194.34-0279 | 0.449MB
+  server: r3mrcg001188p8v.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: SC-154.90.63.177-0320 | 0.445MB
+  server: 154.90.63.177
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇨🇳TW-1.161.241.74-0288 | 0.429MB
+  server: nbmrcg003494xuj.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: SI-192.71.244.150-0322 | 0.408MB
+  server: 192.71.244.150
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: SC-154.223.20.79-0330 | 0.396MB
+  server: 154.223.20.79
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇨🇳TW-116.241.42.86-4827 | 0.296MB
+  server: namrcg001662wgh.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇨🇳TW-103.229.124.3-7303 | 0.29MB
   server: 103.229.124.3
   port: 20521
   type: vmess
@@ -1225,112 +1085,25 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇰🇷KR-141.164.45.187-0339 | 0.077MB
-  server: 141.164.45.187
-  port: 7001
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: MA-188.214.157.30-4803 | 0.063MB
-  server: 188.214.157.30
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇲🇾MY-47.250.45.234-4809 | 0.05MB
-  server: 47.250.45.234
-  port: 43063
-  type: vmess
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇰🇷KR-141.164.45.187-0346 | 0.037MB
-  server: 141.164.45.187
-  port: 6679
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- name: 🇳🇱NL-92.112.126.90-0349 | 0.037MB
-  server: switcher-nick-croquet.freesocks.work
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: RFK38Cg7APneSB5cWDcpbm
-- name: 🇮🇳IN-134.209.147.198-0320 | 0.027MB
-  server: 134.209.147.198
+- name: MX-147.78.1.230-0329 | 0.288MB
+  server: 147.78.1.230
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇳🇱NL-92.112.126.90-0839 | 0.02MB
-  server: switcher-nick-croquet.freesocks.work
-  port: 443
+- name: 🇨🇳TW-114.45.142.48-0296 | 0.284MB
+  server: r3mrcg007147vhp.cybervena.com
+  port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: wwzVn2ZnHfqYa6l8EWh3eY
-- name: 🇮🇳IN-103.97.203.227-4791 | 0.018MB
-  server: 103.97.203.227
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: BO-185.93.173.60-0341 | 0.279MB
+  server: 185.93.173.60
   port: 990
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇭🇰HK-47.76.254.70-4873 | 0.01MB
-  server: n1753101277.4u9ma.icu
-  port: 443
-  type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇭🇰HK-47.76.254.70-4873 | 0.01MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: n1753101277.4u9ma.icu
-- name: 🇭🇰HK-47.244.120.197-4783 | 0.009MB
-  server: 47.244.120.197
-  port: 44867
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇭🇰HK-47.244.120.197-4782 | 0.008MB
-  server: 47.244.120.197
-  port: 36703
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪DE-193.108.117.75-5305 | 0.007MB
-  server: 193.108.117.75
-  port: 8881
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 🇺🇸US-38.114.114.19-5920 | 0.005MB
-  server: 38.114.114.19
-  port: 6697
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- name: 🇨🇦CA-134.195.198.147-0211 | 0.0MB
+- name: 🇨🇦CA-134.195.198.147-6950 | 0.271MB
   server: 134.195.198.147
   port: 443
   type: vmess
@@ -1344,18 +1117,225 @@ proxies:
     path: /
     headers:
       Host: inna.cfd
-- name: 🇬🇧GB-82.38.31.82-0180 | 0.0MB
-  server: 82.38.31.82
+- name: 🇪🇸ES-37.143.130.203-0344 | 0.247MB
+  server: 37.143.130.203
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇺🇸US-38.135.24.131-0313 | 0.169MB
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+- name: 🇳🇱NL-193.29.139.179-0347 | 0.125MB
+  server: 193.29.139.179
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇺🇸US-156.146.38.170-0170 | 0.0MB
-  server: 156.146.38.170
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 🇰🇷KR-218.237.185.230-0360 | 0.121MB
+  server: 218.237.185.230
+  port: 4652
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇯🇵JP-103.106.228.247-0351 | 0.118MB
+  server: 103.106.228.247
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: EG-38.54.59.180-0338 | 0.114MB
+  server: 38.54.59.180
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇬🇧GB-82.38.31.179-0348 | 0.108MB
+  server: 82.38.31.179
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇮🇳IN-134.209.147.198-0350 | 0.105MB
+  server: 134.209.147.198
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: RELAY-172.67.134.208-0358 | 0.103MB
+  server: cxsfvn.uhomdex.shop
+  port: 443
+  type: vmess
+  uuid: bb6e260e-b80d-4365-b252-9fbe466f1f34
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.134.208-0358 | 0.103MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cxsfvn.uhomdex.shop
+- name: 🇬🇧GB-82.38.31.184-0345 | 0.098MB
+  server: 82.38.31.184
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇩🇪DE-38.60.250.107-0357 | 0.086MB
+  server: 38.60.250.107
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: PR-185.47.255.22-0333 | 0.08MB
+  server: 185.47.255.22
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: BG-38.60.247.151-0323 | 0.071MB
+  server: 38.60.247.151
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇰🇷KR-141.164.45.187-0308 | 0.07MB
+  server: 141.164.45.187
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: TR-203.202.232.78-0365 | 0.067MB
+  server: 203.202.232.78
+  port: 60299
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: AVLbEUEtBD59FsRqcNyEib
+- name: 🇰🇷KR-141.164.45.187-0282 | 0.043MB
+  server: 141.164.45.187
+  port: 6679
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 🇰🇷KR-221.139.79.57-0356 | 0.037MB
+  server: 221.139.79.57
+  port: 13979
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇭🇰HK-216.250.97.82-0359 | 0.029MB
+  server: 216.250.97.82
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: 🇭🇰HK-47.243.135.74-4773 | 0.029MB
+  server: 47.243.135.74
+  port: 55185
+  type: vmess
+  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇭🇰HK-47.244.120.197-4771 | 0.028MB
+  server: 47.244.120.197
+  port: 36703
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇳🇱NL-92.112.126.90-0828 | 0.027MB
+  server: switcher-nick-croquet.freesocks.work
   port: 443
   type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+  cipher: chacha20-ietf-poly1305
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+- name: PT-185.231.233.112-0363 | 0.018MB
+  server: 185.231.233.112
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇳🇱NL-92.112.126.90-0361 | 0.017MB
+  server: switcher-nick-croquet.freesocks.work
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+- name: MA-188.214.157.30-4792 | 0.012MB
+  server: 188.214.157.30
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇮🇳IN-103.97.203.227-0366 | 0.011MB
+  server: 103.97.203.227
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇳🇱NL-213.109.147.242-0300 | 0.008MB
+  server: 213.109.147.242
+  port: 62685
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: VpKABcOpNNA0l5G2AVOmw8
+- name: 🇺🇸US-149.30.232.103-4863 | 0.007MB
+  server: 149.30.232.103
+  port: 31469
+  type: vmess
+  uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸US-149.30.232.103-4864 | 0.005MB
+  server: 149.30.232.103
+  port: 18393
+  type: vmess
+  uuid: 2c1807ce-6a63-4451-9add-a778d2507160
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇭🇰HK-47.244.120.197-4772 | 0.002MB
+  server: 47.244.120.197
+  port: 44867
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: MA-188.214.157.58-0367 | 0.0MB
+  server: 188.214.157.58
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
 proxy-groups:
 - name: Global ©️
   type: select
@@ -1412,224 +1392,224 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇦CA-79.127.200.169-0169 | 160.206MB
-  - 🇺🇸US-64.186.255.102-4665 | 158.235MB
-  - 🇺🇸US-64.186.252.102-0172 | 121.776MB
-  - 🇨🇦CA-79.127.233.170-0168 | 86.735MB
-  - 🇺🇸US-37.19.198.236-0207 | 71.604MB
-  - 🇺🇸US-156.146.38.169-0171 | 70.578MB
-  - 🇨🇦CA-137.184.174.93-0198 | 70.278MB
-  - 🇺🇸US-64.186.254.102-0174 | 70.129MB
-  - EC-38.165.231.25-0175 | 68.816MB
-  - 🇬🇧GB-82.38.31.217-0181 | 64.002MB
-  - 🇬🇧GB-82.38.31.205-0200 | 58.034MB
-  - 🇬🇧GB-82.38.31.218-0184 | 57.515MB
-  - 🇳🇱NL-193.29.139.206-0191 | 55.755MB
-  - 🇬🇧GB-82.38.31.202-0182 | 55.25MB
-  - 🇬🇧GB-146.70.61.37-0177 | 55.223MB
-  - 🇬🇧GB-82.38.31.210-0189 | 53.587MB
-  - 🇳🇱NL-193.29.139.189-0194 | 53.55MB
-  - 🇬🇧GB-82.38.31.99-0196 | 53.193MB
-  - 🇬🇧GB-82.38.31.194-0185 | 53.059MB
-  - 🇬🇧GB-82.38.31.189-0334 | 52.733MB
-  - 🇬🇧GB-82.38.31.35-0179 | 52.685MB
-  - 🇳🇱NL-193.29.139.217-0183 | 52.553MB
-  - 🇳🇱NL-193.29.139.227-0199 | 52.41MB
-  - 🇳🇱NL-193.29.139.157-0188 | 52.304MB
-  - 🇳🇱NL-193.29.139.141-0195 | 52.233MB
-  - 🇬🇧GB-82.38.31.191-0192 | 52.197MB
-  - 🇳🇱NL-193.29.139.202-0190 | 51.432MB
-  - 🇬🇧GB-82.38.31.214-0193 | 51.103MB
-  - 🇳🇱NL-193.29.139.251-0203 | 50.227MB
-  - 🇬🇧GB-82.38.31.208-0197 | 49.999MB
-  - 🇬🇧GB-82.38.31.124-0186 | 49.859MB
-  - 🇬🇧GB-82.38.31.187-0187 | 49.275MB
-  - SE-121.127.46.147-0202 | 49.223MB
-  - 🇺🇸US-104.192.226.106-0176 | 48.87MB
-  - 🇺🇸US-173.234.29.2-0213 | 48.767MB
-  - 🇳🇱NL-109.201.152.181-0206 | 47.263MB
-  - 🇬🇧GB-82.38.31.176-0328 | 46.918MB
-  - 🇺🇸US-173.244.56.6-0205 | 46.625MB
-  - 🇳🇱NL-51.15.17.169-0204 | 46.41MB
-  - 🇵🇱PL-62.112.222.103-0210 | 46.151MB
-  - 🇵🇱PL-62.112.222.55-0209 | 45.064MB
-  - 🇬🇧GB-82.38.31.101-0178 | 44.986MB
-  - 🇰🇷KR-3.34.140.83-0201 | 42.275MB
-  - ZA-156.38.168.58-0216 | 41.169MB
-  - 🇨🇦CA-134.195.198.147-6961 | 38.959MB
-  - LV-46.183.217.204-0217 | 38.66MB
-  - 🇳🇱NL-158.173.20.171-0221 | 37.746MB
-  - 🇬🇧GB-51.132.235.17-0222 | 37.599MB
-  - 🇯🇵JP-172.105.199.111-0212 | 37.459MB
-  - 🇬🇧GB-51.132.235.17-0224 | 36.652MB
+  - 🇨🇦CA-79.127.200.169-0170 | 293.779MB
+  - 🇺🇸US-37.19.198.236-0208 | 179.595MB
+  - 🇺🇸US-64.186.252.102-4868 | 113.479MB
+  - 🇨🇦CA-137.184.174.93-0205 | 111.726MB
+  - 🇨🇦CA-79.127.233.170-0169 | 94.72MB
+  - 🇬🇧GB-82.38.31.217-0201 | 94.143MB
+  - 🇬🇧GB-82.38.31.194-0192 | 94.066MB
+  - 🇬🇧GB-82.38.31.218-0187 | 94.028MB
+  - 🇳🇱NL-193.29.139.202-0178 | 93.952MB
+  - 🇳🇱NL-193.29.139.217-0184 | 93.799MB
+  - 🇬🇧GB-82.38.31.35-0183 | 93.799MB
+  - 🇳🇱NL-193.29.139.141-0191 | 93.799MB
+  - 🇬🇧GB-82.38.31.99-0194 | 93.496MB
+  - 🇳🇱NL-193.29.139.157-0179 | 93.308MB
+  - 🇬🇧GB-82.38.31.189-0349 | 92.933MB
+  - 🇬🇧GB-82.38.31.176-0207 | 92.562MB
+  - 🇺🇸US-156.146.38.169-0175 | 92.562MB
+  - 🇳🇱NL-193.29.139.206-0181 | 92.414MB
+  - 🇬🇧GB-82.38.31.210-0188 | 91.428MB
+  - 🇺🇸US-156.146.38.167-0174 | 91.248MB
+  - 🇬🇧GB-82.38.31.214-0190 | 88.935MB
+  - 🇬🇧GB-82.38.31.202-0185 | 88.56MB
+  - 🇬🇧GB-82.38.31.187-0186 | 87.921MB
+  - 🇬🇧GB-82.38.31.82-0200 | 86.768MB
+  - 🇬🇧GB-82.38.31.101-0180 | 86.122MB
+  - 🇳🇱NL-193.29.139.227-0204 | 85.708MB
+  - 🇬🇧GB-82.38.31.191-0197 | 83.603MB
+  - 🇬🇧GB-82.38.31.124-0182 | 83.272MB
+  - 🇺🇸US-156.146.38.170-0173 | 81.83MB
+  - 🇬🇧GB-82.38.31.205-0195 | 81.085MB
+  - 🇬🇧GB-82.38.31.208-0193 | 80.214MB
+  - 🇳🇱NL-193.29.139.251-0189 | 79.388MB
+  - SE-121.127.46.147-0199 | 76.604MB
+  - 🇺🇸US-173.234.29.2-0217 | 72.661MB
+  - 🇺🇸US-64.186.255.102-0172 | 61.617MB
+  - 🇳🇱NL-109.201.152.181-0206 | 60.585MB
+  - 🇳🇱NL-193.29.139.189-0196 | 57.131MB
+  - 🇳🇱NL-51.15.17.169-0198 | 55.796MB
+  - 🇬🇧GB-82.38.31.199-0343 | 54.909MB
+  - 🇺🇸US-104.192.226.106-0177 | 53.962MB
+  - 🇵🇱PL-62.112.222.103-0213 | 53.874MB
+  - 🇵🇱PL-62.112.222.54-0209 | 47.023MB
+  - 🇺🇸US-173.244.56.6-0168 | 38.621MB
+  - 🇵🇱PL-62.112.222.55-0211 | 38.467MB
+  - 🇵🇱PL-62.112.222.76-0215 | 37.975MB
+  - LV-46.183.217.204-0220 | 37.956MB
+  - ZA-156.38.168.58-0219 | 37.9MB
+  - 🇰🇷KR-54.180.131.34-0202 | 36.892MB
+  - 🇬🇧GB-51.132.235.17-0230 | 35.587MB
+  - 🇰🇷KR-3.34.140.83-0203 | 35.032MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - PA-138.186.142.81-0208 | 35.182MB
-  - 🇬🇧GB-51.132.235.17-0223 | 31.308MB
-  - 🇬🇧GB-51.132.235.17-0225 | 31.023MB
-  - PA-138.186.142.80-0282 | 30.812MB
-  - 🇬🇧GB-141.98.101.182-0305 | 30.5MB
-  - 🇬🇧GB-141.98.101.178-0306 | 29.144MB
-  - 🇺🇸US-156.146.38.167-0173 | 25.161MB
-  - 🇯🇵JP-149.22.87.204-0218 | 24.666MB
-  - 🇸🇬SG-68.183.227.4-0219 | 22.106MB
-  - AE-147.78.0.182-0229 | 20.726MB
-  - FI-193.47.60.186-0228 | 18.937MB
-  - 🇰🇷KR-54.180.131.34-0236 | 18.877MB
-  - FI-38.244.136.233-0232 | 18.637MB
-  - LV-185.176.221.72-0226 | 18.276MB
-  - BG-89.44.197.181-0234 | 17.928MB
-  - 🇨🇦CA-23.95.76.59-0231 | 17.812MB
-  - 🇭🇰HK-185.14.47.88-0834 | 17.711MB
-  - 🇭🇰HK-185.244.208.189-0220 | 17.695MB
-  - 🇳🇱NL-85.234.65.205-0233 | 17.245MB
-  - PK-156.59.243.6-0230 | 15.589MB
-  - 🇨🇦CA-23.162.200.227-6959 | 15.391MB
-  - ZA-102.133.165.160-0247 | 15.068MB
-  - 🇰🇷KR-152.67.208.31-0853 | 14.883MB
-  - 🇨🇳TW-111.248.43.251-4645 | 14.535MB
-  - 🇰🇷KR-152.67.208.31-0227 | 13.777MB
-  - ZA-102.37.156.224-0241 | 13.444MB
-  - 🇨🇳TW-36.225.8.218-0253 | 12.741MB
-  - 🇨🇳TW-36.227.72.174-0237 | 11.911MB
-  - 🇯🇵JP-160.16.106.99-0239 | 11.789MB
-  - 🇨🇦CA-45.154.204.7-0295 | 10.463MB
-  - 🇦🇺AU-87.121.33.75-0244 | 10.141MB
-  - 🇦🇺AU-87.121.33.165-0242 | 10.092MB
-  - 🇯🇵JP-160.16.124.17-0240 | 10.048MB
-  - 🇦🇺AU-87.121.33.56-0246 | 9.922MB
-  - 🇯🇵JP-160.16.70.180-0256 | 9.827MB
-  - 🇯🇵JP-160.16.214.104-1670 | 9.591MB
-  - 🇨🇳TW-111.249.128.109-0235 | 9.497MB
-  - 🇨🇳TW-1.163.202.26-4643 | 9.008MB
-  - 🇨🇳TW-111.249.128.26-0264 | 8.954MB
-  - 🇨🇳TW-36.224.132.219-0267 | 8.953MB
-  - 🇨🇦CA-144.217.164.29-0255 | 8.84MB
-  - 🇨🇳TW-36.224.132.219-0274 | 8.752MB
-  - 🇨🇳TW-1.162.164.74-0297 | 8.578MB
-  - KZ-109.61.39.28-0254 | 8.152MB
-  - 🇨🇳TW-36.226.50.168-4637 | 8.083MB
-  - 🇨🇳TW-36.224.135.49-0257 | 7.78MB
-  - 🇨🇳TW-1.162.176.167-0269 | 7.581MB
-  - 🇨🇳TW-1.162.143.241-0238 | 7.199MB
-  - 🇨🇳TW-61.224.65.18-0250 | 7.028MB
-  - 🇨🇳TW-36.224.129.102-4646 | 6.805MB
+  - 🇬🇧GB-51.132.235.17-0229 | 27.347MB
+  - 🇳🇱NL-158.173.20.171-0227 | 25.839MB
+  - 🇬🇧GB-51.132.235.17-0232 | 25.828MB
+  - 🇦🇺AU-82.117.225.55-0210 | 23.612MB
+  - 🇬🇧GB-51.132.235.17-0228 | 21.711MB
+  - 🇳🇱NL-85.234.65.205-0231 | 21.416MB
+  - 🇳🇱NL-89.39.70.111-0225 | 21.176MB
+  - 🇬🇧GB-141.98.101.182-0319 | 20.964MB
+  - 🇬🇧GB-141.98.101.178-0318 | 20.669MB
+  - 🇯🇵JP-172.105.199.111-0214 | 18.652MB
+  - LV-185.176.221.72-0239 | 18.298MB
+  - 🇭🇰HK-185.244.208.189-0233 | 18.001MB
+  - FI-38.244.136.233-0321 | 16.415MB
+  - AE-147.78.0.182-0234 | 15.836MB
+  - FI-193.47.60.186-0238 | 13.89MB
+  - BG-89.44.197.181-0241 | 12.795MB
+  - 🇭🇰HK-185.14.47.88-0226 | 11.158MB
+  - PA-138.186.142.80-0222 | 10.961MB
+  - 🇯🇵JP-149.22.87.204-0221 | 10.214MB
+  - 🇨🇦CA-23.95.76.59-0240 | 9.833MB
+  - PA-138.186.142.81-0223 | 9.722MB
+  - 🇨🇦CA-23.162.200.227-6948 | 9.714MB
+  - LT-195.66.25.220-0243 | 9.681MB
+  - ZA-102.133.165.160-0246 | 9.646MB
+  - ZA-102.37.156.224-0250 | 9.52MB
+  - EC-38.165.231.25-0176 | 9.506MB
+  - MT-171.22.254.17-0244 | 9.45MB
+  - 🇰🇷KR-152.67.208.31-0842 | 9.431MB
+  - 🇰🇷KR-152.67.208.31-0235 | 9.418MB
+  - 🇯🇵JP-153.121.38.213-0814 | 9.18MB
+  - 🇦🇺AU-87.121.33.56-0249 | 9.175MB
+  - 🇨🇳TW-36.227.72.174-0245 | 8.516MB
+  - 🇯🇵JP-160.16.106.99-0261 | 8.385MB
+  - 🇯🇵JP-160.16.214.104-0817 | 8.269MB
+  - 🇦🇺AU-87.121.33.75-0247 | 8.263MB
+  - 🇨🇦CA-45.154.204.7-0271 | 7.635MB
+  - 🇦🇺AU-87.121.33.165-0248 | 7.399MB
+  - 🇨🇳TW-111.248.43.251-4634 | 6.62MB
+  - 🇨🇳TW-111.249.128.109-0254 | 6.603MB
+  - 🇯🇵JP-160.16.70.180-0253 | 6.595MB
+  - 🇳🇱NL-85.234.65.58-0236 | 6.149MB
+  - 🇯🇵JP-160.16.124.17-0270 | 6.138MB
+  - 🇸🇬SG-38.89.142.56-0255 | 5.838MB
+  - KZ-109.61.39.28-0264 | 5.771MB
+  - 🇨🇳TW-1.162.143.241-0284 | 5.706MB
+  - 🇨🇳TW-1.163.202.26-0263 | 5.627MB
+  - 🇨🇳TW-1.162.164.74-4644 | 5.594MB
+  - 🇨🇳TW-36.225.8.218-0252 | 5.421MB
+  - NO-80.173.231.254-0281 | 5.263MB
+  - 🇨🇳TW-111.249.128.26-0276 | 4.81MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳TW-36.224.138.111-0268 | 6.733MB
-  - 🇯🇵JP-153.121.38.213-1667 | 6.247MB
-  - 🇨🇳TW-36.224.151.183-0271 | 6.162MB
-  - 🇨🇳TW-36.224.128.159-0281 | 6.127MB
-  - 🇨🇳TW-36.224.130.97-0263 | 6.127MB
-  - NO-80.173.231.254-0272 | 5.919MB
-  - 🇨🇳TW-1.162.180.189-0245 | 5.713MB
-  - 🇨🇳TW-1.171.18.111-0248 | 5.561MB
-  - MT-171.22.254.17-0251 | 5.319MB
-  - 🇵🇱PL-217.30.10.70-8291 | 5.033MB
-  - 🇨🇳TW-36.224.130.97-0259 | 5.01MB
-  - 🇨🇳TW-36.224.128.32-4648 | 4.986MB
-  - 🇺🇸US-209.126.84.189-0809 | 4.828MB
-  - 🇨🇳TW-36.230.10.82-0270 | 4.771MB
-  - 🇨🇳TW-1.161.246.129-0286 | 4.576MB
-  - 🇨🇳TW-36.227.194.34-0276 | 4.207MB
-  - 🇨🇳TW-36.224.140.237-0285 | 4.129MB
-  - 🇺🇸US-209.126.84.189-0803 | 3.993MB
-  - 🇮🇳IN-82.180.146.173-0280 | 3.65MB
-  - PY-38.165.233.93-0278 | 3.487MB
-  - 🇵🇱PL-217.30.10.70-4819 | 3.28MB
-  - 🇵🇱PL-217.30.10.70-4820 | 3.123MB
-  - 🇨🇳TW-1.161.246.129-0816 | 2.954MB
-  - 🇳🇱NL-213.109.147.242-0321 | 2.852MB
-  - 🇩🇰DK-192.36.27.94-0273 | 2.726MB
-  - 🇨🇳TW-1.161.246.106-0300 | 2.587MB
-  - 🇨🇳TW-185.189.160.105-0258 | 2.572MB
-  - 🇨🇳TW-36.227.206.73-0508 | 2.555MB
-  - 🇨🇳TW-111.248.79.83-4839 | 2.515MB
-  - 🇨🇳TW-1.161.246.106-0510 | 2.39MB
-  - 🇨🇳TW-1.161.243.93-0296 | 2.191MB
-  - HR-46.183.184.60-0307 | 2.129MB
-  - 🇬🇧GB-82.38.31.184-0337 | 1.896MB
-  - 🇨🇳TW-114.35.191.123-0265 | 1.809MB
-  - 🇨🇳TW-111.248.110.25-0262 | 1.726MB
-  - 🇷🇺RU-38.60.223.8-0319 | 1.667MB
-  - VN-103.163.218.2-0279 | 1.566MB
-  - 🇨🇳TW-111.250.207.173-0565 | 1.537MB
-  - BR-38.54.57.90-0288 | 1.494MB
-  - 🇨🇳TW-114.45.131.202-0298 | 1.397MB
-  - 🇸🇬SG-38.89.142.56-0289 | 1.364MB
-  - GR-192.71.166.100-0299 | 1.345MB
-  - 🇺🇸US-38.135.24.131-0343 | 1.299MB
-  - 🇭🇰HK-112.213.102.188-0290 | 1.197MB
-  - 🇺🇸US-38.135.24.131-0313 | 1.177MB
-  - 🇵🇱PL-62.112.222.76-0325 | 1.131MB
-  - 🇨🇳TW-114.45.142.48-0266 | 1.031MB
-  - 🇨🇳TW-1.161.241.74-0332 | 0.926MB
-  - 🇨🇳TW-116.241.42.86-0292 | 0.921MB
-  - PE-138.186.143.32-0302 | 0.877MB
+  - 🇨🇳TW-36.230.10.82-0242 | 4.739MB
+  - 🇨🇳TW-185.189.160.105-0274 | 4.728MB
+  - 🇨🇳TW-61.224.65.18-0272 | 4.652MB
+  - 🇨🇳TW-36.224.128.159-0285 | 4.315MB
+  - 🇨🇳TW-1.162.176.167-0256 | 4.307MB
+  - 🇨🇳TW-36.226.50.168-4626 | 4.199MB
+  - 🇨🇳TW-36.224.132.219-0283 | 3.738MB
+  - PK-156.59.243.6-0275 | 3.595MB
+  - 🇵🇱PL-57.128.214.100-0280 | 3.57MB
+  - 🇨🇳TW-36.224.140.237-0251 | 3.566MB
+  - 🇨🇳TW-36.224.138.111-0289 | 3.313MB
+  - 🇨🇳TW-36.224.132.219-0277 | 3.282MB
+  - 🇨🇳TW-36.224.129.102-4635 | 3.275MB
+  - 🇨🇳TW-114.45.131.202-0299 | 3.134MB
+  - 🇨🇳TW-111.248.110.25-0298 | 3.043MB
+  - 🇩🇰DK-192.36.27.94-0293 | 3.0MB
+  - 🇨🇳TW-36.224.151.183-0324 | 2.808MB
+  - 🇨🇳TW-114.35.191.123-0273 | 2.784MB
+  - 🇮🇳IN-82.180.146.173-0295 | 2.684MB
+  - LT-195.66.25.251-4702 | 2.576MB
+  - 🇨🇳TW-36.224.130.97-0266 | 2.55MB
+  - 🇨🇳TW-114.35.191.123-0258 | 2.493MB
+  - 🇸🇬SG-68.183.227.4-0237 | 2.433MB
+  - 🇨🇳TW-1.171.18.111-0267 | 2.418MB
+  - PY-38.165.233.93-0291 | 2.378MB
+  - 🇨🇳TW-114.45.163.12-0826 | 2.029MB
+  - 🇨🇳TW-125.228.75.185-0294 | 1.89MB
+  - 🇰🇷KR-218.237.185.230-0354 | 1.842MB
+  - 🇨🇳TW-125.228.75.185-0314 | 1.513MB
+  - VN-103.163.218.2-0305 | 1.505MB
+  - 🇭🇰HK-112.213.102.188-0302 | 1.49MB
+  - 🇨🇦CA-144.217.164.29-0317 | 1.482MB
+  - 🇨🇳TW-1.161.243.93-0316 | 1.462MB
+  - 🇬🇧GB-185.5.38.111-0306 | 1.268MB
+  - 🇺🇸US-209.126.84.189-0790 | 1.229MB
+  - 🇨🇳TW-36.227.206.73-0269 | 1.168MB
+  - 🇬🇧GB-185.5.38.111-0301 | 1.099MB
+  - 🇨🇳TW-111.250.207.173-0804 | 1.0MB
+  - 🇨🇳TW-61.231.8.214-0260 | 0.992MB
+  - 🇨🇳TW-1.161.246.106-0331 | 0.975MB
+  - SC-154.90.62.168-0309 | 0.96MB
+  - 🇨🇳TW-1.161.246.106-0290 | 0.946MB
+  - 🇨🇳TW-111.248.79.83-0303 | 0.919MB
+  - MK-46.183.185.37-0334 | 0.897MB
+  - 🇺🇸US-209.126.84.189-0796 | 0.84MB
+  - HR-46.183.184.60-0304 | 0.808MB
+  - BR-38.54.57.90-0346 | 0.767MB
+  - 🇨🇳TW-36.224.128.32-4637 | 0.656MB
+  - 🇨🇳TW-36.224.135.49-0286 | 0.654MB
+  - CO-154.223.16.212-0325 | 0.635MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - PE-138.186.143.32-0303 | 0.844MB
-  - 🇭🇰HK-47.243.135.74-4784 | 0.81MB
-  - BE-192.71.249.78-0293 | 0.797MB
-  - PR-185.47.255.22-0315 | 0.795MB
-  - BO-185.93.173.60-0309 | 0.767MB
-  - 🇨🇳TW-111.250.225.82-0252 | 0.749MB
-  - MA-154.70.207.97-0291 | 0.642MB
-  - 🇬🇧GB-82.38.31.199-0329 | 0.582MB
-  - SI-192.71.244.150-0301 | 0.504MB
-  - LT-195.66.25.220-0326 | 0.403MB
-  - MK-46.183.185.37-0294 | 0.4MB
-  - LT-195.66.25.251-4713 | 0.35MB
-  - 🇯🇵JP-103.106.228.247-0338 | 0.349MB
-  - 🇭🇰HK-203.23.128.33-0287 | 0.346MB
-  - SC-154.90.63.177-0283 | 0.318MB
-  - RELAY-104.21.25.226-0317 | 0.282MB
-  - SC-154.223.20.79-0304 | 0.231MB
-  - 🇳🇱NL-193.29.139.179-0331 | 0.226MB
-  - BG-38.60.247.151-0316 | 0.222MB
-  - 🇬🇧GB-82.38.31.179-0336 | 0.218MB
-  - SC-154.90.62.168-0310 | 0.186MB
-  - LT-193.135.174.135-0277 | 0.181MB
-  - 🇭🇰HK-47.242.138.141-0335 | 0.176MB
-  - MX-147.78.1.230-0341 | 0.172MB
-  - 🇪🇸ES-37.143.130.203-0333 | 0.168MB
-  - MX-147.78.1.230-0342 | 0.147MB
-  - CO-154.223.16.212-0311 | 0.146MB
-  - EG-38.54.59.180-0330 | 0.146MB
-  - 🇬🇧GB-185.5.38.111-0344 | 0.145MB
-  - 🇩🇪DE-38.60.250.107-0345 | 0.133MB
-  - 🇵🇱PL-62.112.222.54-0324 | 0.128MB
-  - TR-203.202.232.78-4792 | 0.125MB
-  - 🇳🇱NL-85.234.65.58-0243 | 0.118MB
-  - 🇭🇰HK-216.250.97.82-4718 | 0.091MB
-  - 🇨🇳TW-103.229.124.3-7314 | 0.086MB
-  - 🇰🇷KR-141.164.45.187-0339 | 0.077MB
-  - MA-188.214.157.30-4803 | 0.063MB
-  - 🇲🇾MY-47.250.45.234-4809 | 0.05MB
-  - 🇰🇷KR-141.164.45.187-0346 | 0.037MB
-  - 🇳🇱NL-92.112.126.90-0349 | 0.037MB
-  - 🇮🇳IN-134.209.147.198-0320 | 0.027MB
-  - 🇳🇱NL-92.112.126.90-0839 | 0.02MB
-  - 🇮🇳IN-103.97.203.227-4791 | 0.018MB
-  - 🇭🇰HK-47.76.254.70-4873 | 0.01MB
-  - 🇭🇰HK-47.244.120.197-4783 | 0.009MB
-  - 🇭🇰HK-47.244.120.197-4782 | 0.008MB
-  - 🇩🇪DE-193.108.117.75-5305 | 0.007MB
-  - 🇺🇸US-38.114.114.19-5920 | 0.005MB
-  - 🇨🇦CA-134.195.198.147-0211 | 0.0MB
-  - 🇬🇧GB-82.38.31.82-0180 | 0.0MB
-  - 🇺🇸US-156.146.38.170-0170 | 0.0MB
+  - 🇭🇰HK-203.23.128.33-0342 | 0.596MB
+  - 🇨🇳TW-1.162.180.189-0278 | 0.579MB
+  - 🇨🇳TW-1.161.246.129-0312 | 0.562MB
+  - 🇷🇺RU-38.60.223.8-0326 | 0.539MB
+  - GR-192.71.166.100-0307 | 0.52MB
+  - PE-138.186.143.32-0328 | 0.517MB
+  - MA-154.70.207.97-0310 | 0.503MB
+  - MX-147.78.1.230-0337 | 0.495MB
+  - PE-138.186.143.32-0327 | 0.457MB
+  - BE-192.71.249.78-0297 | 0.455MB
+  - 🇨🇳TW-36.227.194.34-0279 | 0.449MB
+  - SC-154.90.63.177-0320 | 0.445MB
+  - 🇨🇳TW-1.161.241.74-0288 | 0.429MB
+  - SI-192.71.244.150-0322 | 0.408MB
+  - SC-154.223.20.79-0330 | 0.396MB
+  - 🇨🇳TW-116.241.42.86-4827 | 0.296MB
+  - 🇨🇳TW-103.229.124.3-7303 | 0.29MB
+  - MX-147.78.1.230-0329 | 0.288MB
+  - 🇨🇳TW-114.45.142.48-0296 | 0.284MB
+  - BO-185.93.173.60-0341 | 0.279MB
+  - 🇨🇦CA-134.195.198.147-6950 | 0.271MB
+  - 🇪🇸ES-37.143.130.203-0344 | 0.247MB
+  - 🇺🇸US-38.135.24.131-0313 | 0.169MB
+  - 🇳🇱NL-193.29.139.179-0347 | 0.125MB
+  - 🇰🇷KR-218.237.185.230-0360 | 0.121MB
+  - 🇯🇵JP-103.106.228.247-0351 | 0.118MB
+  - EG-38.54.59.180-0338 | 0.114MB
+  - 🇬🇧GB-82.38.31.179-0348 | 0.108MB
+  - 🇮🇳IN-134.209.147.198-0350 | 0.105MB
+  - RELAY-172.67.134.208-0358 | 0.103MB
+  - 🇬🇧GB-82.38.31.184-0345 | 0.098MB
+  - 🇩🇪DE-38.60.250.107-0357 | 0.086MB
+  - PR-185.47.255.22-0333 | 0.08MB
+  - BG-38.60.247.151-0323 | 0.071MB
+  - 🇰🇷KR-141.164.45.187-0308 | 0.07MB
+  - TR-203.202.232.78-0365 | 0.067MB
+  - 🇰🇷KR-141.164.45.187-0282 | 0.043MB
+  - 🇰🇷KR-221.139.79.57-0356 | 0.037MB
+  - 🇭🇰HK-216.250.97.82-0359 | 0.029MB
+  - 🇭🇰HK-47.243.135.74-4773 | 0.029MB
+  - 🇭🇰HK-47.244.120.197-4771 | 0.028MB
+  - 🇳🇱NL-92.112.126.90-0828 | 0.027MB
+  - PT-185.231.233.112-0363 | 0.018MB
+  - 🇳🇱NL-92.112.126.90-0361 | 0.017MB
+  - MA-188.214.157.30-4792 | 0.012MB
+  - 🇮🇳IN-103.97.203.227-0366 | 0.011MB
+  - 🇳🇱NL-213.109.147.242-0300 | 0.008MB
+  - 🇺🇸US-149.30.232.103-4863 | 0.007MB
+  - 🇺🇸US-149.30.232.103-4864 | 0.005MB
+  - 🇭🇰HK-47.244.120.197-4772 | 0.002MB
+  - MA-188.214.157.58-0367 | 0.0MB
 rules:
 - MATCH,Global ©️
